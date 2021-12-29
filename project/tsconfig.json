@@ -8,6 +8,14 @@
     "lib": ["ES2015", "DOM", "DOM.Iterable"],
     "noImplicitAny": true,
     "typeRoots": ["./node_modules/@types", "types"], // 타입 커스텀
+    "strict": true,
+    // strict true = 아래 자동 적용
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    // "strictBindCallApply": true,
+    // "strictPropertyInitialization": true,
+    // "noImplicitThis": true,
+    // "alwaysStrict": true,
   },
   "include": ["./src/**/*"]
 }
