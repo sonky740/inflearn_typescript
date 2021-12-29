@@ -3,10 +3,11 @@
     "allowJs": true,
     "checkJs": true,
     "target": "ES5",
-    "outDir": "./built",
+    "outDir": "./dist",
     "moduleResolution": "Node",
     "lib": ["ES2015", "DOM", "DOM.Iterable"],
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "typeRoots": ["./node_modules/@types", "types"], // 타입 커스텀
   },
   "include": ["./src/**/*"]
 }
